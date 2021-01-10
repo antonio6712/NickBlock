@@ -70,7 +70,8 @@ ul{
 
 .nav-main ul.nav-menu{
     flex:1;
-    margin: 20px;
+    margin: auto;
+
 }
 
 .menu-btn{
@@ -82,6 +83,7 @@ ul{
     z-index: 2;
     display: none;
     font-size: 1.5rem;
+    ;
 }
 
 /* SHOWCASE */
@@ -113,6 +115,7 @@ hr{
     border-top: 1px  solid;
     border-bottom: 1px  solid;
     margin: 10px 0;
+    border-radius: 10px;
 }
 
 .btn:hover{
@@ -264,13 +267,14 @@ hr{
     }
     .nav-main ul.nav-menu.show{
         transform: translateX(-20px);
+        margin: auto;
     }
 
     .nav-main ul.nav-menu-right{
         margin-right: 50px;
     }
 
-    .nav-main ul.nav-main li{
+    .nav-main ul.nav-menu li{
         padding: 20px;
         font-size: 14px;
     }
@@ -278,7 +282,7 @@ hr{
     .news-cars{
         grid-template-columns: repeat(2, 1fr);
     }
-    
+
     .cars-banner-one .content{
         width: 80%;
     }
