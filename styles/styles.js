@@ -5,9 +5,7 @@ document.querySelector('.menu-btn').addEventListener('click', () => {
 window.sr = ScrollReveal();
 
 sr.reveal('.nav-main', { 
-    duration: 2000,
-    origin: 'bottom',
-    distance: '-100px'
+    delay: 500
 });
 sr.reveal('.showcase', { 
     duration: 2000,
