@@ -289,7 +289,9 @@ hr{
     .footer-links .footer-container{
         grid-template-columns: repeat(2,1fr);
     }
-}
+    .showcase{
+        width: 100%;
+    }
 
 @media(max-width:500px){
     .news-cars{

@@ -2,8 +2,25 @@ document.querySelector('.menu-btn').addEventListener('click', () => {
     document.querySelector('.nav-menu').classList.toggle('show');
 });
 
+window.sr = ScrollReveal();
 
-ScrollReveal().reveal('.showcase' , { delay: 600 });
-ScrollReveal().reveal('.news-cars' , { delay: 600 });
-ScrollReveal().reveal('.cars-banner-one' , { delay: 600 });
-ScrollReveal().reveal('.social' , { delay: 600 });
+sr.reveal('.nav-main', { 
+    duration: 2000,
+    origin: 'bottom',
+    distance: '-100px'
+});
+sr.reveal('.showcase', { 
+    duration: 2000,
+    origin: 'top',
+    distance: '-100px'
+});
+sr.reveal('.news-cars', { 
+    duration: 2000,
+    origin: 'left',
+    distance: '-100px'
+});
+sr.reveal('.cars-banner-one', { 
+    duration: 2000,
+    origin: 'top',
+    distance: '-100px'
+});
