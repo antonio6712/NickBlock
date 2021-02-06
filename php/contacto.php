@@ -12,8 +12,8 @@ $header = 'NickBlock';
 $fullMesage = $message . "\nAtentamente" . $fullname . "\nTelefono" . $phone . "\nCorreo" . $email ;
 
 mail($destinatario, $affair, $fullMesage, $header );
-echo "<script> alert('correo enviado exitosamente')</script>"
-echo "<script> setTimeout(\"location.href='index.html'\",1000)</script>"
+echo "<script> alert('correo enviado exitosamente')</script>";
+echo "<script> setTimeout(\"location.href='index.html'\",1000)</script>";
 
 
 ?>
