@@ -73,6 +73,17 @@ ul{
     margin: auto;
 }
 
+.search{
+    
+    padding: .7em;
+    border: none;
+    background: none;
+    outline: none;
+    color: #fff;
+    border-bottom: 1px solid rgba(255, 255, 255, .2);
+    box-shadow: 0 0 2px 0 rgba(255, 255, 255, .2);
+}
+
 .menu-btn{
     position: absolute;
     cursor: pointer;
@@ -246,6 +257,8 @@ hr{
     padding-bottom: 20px;
 }
 
+
+
 @media(max-width:700px){
     
     .nav-main ul.nav-menu{
@@ -274,6 +287,8 @@ hr{
     .nav-main ul.nav-menu-right{
         margin-right: 50px;
     }
+
+    
 
     .nav-main ul.nav-menu li{
         padding: 20px;
