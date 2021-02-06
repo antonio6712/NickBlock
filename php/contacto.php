@@ -11,9 +11,9 @@ $message = $_POST['message'];
 $header = 'NickBlock';
 $fullMesage = $message . "\nAtentamente" . $fullname . "\nTelefono" . $phone . "\nCorreo" . $email ;
 
-mail($destinatario, $affair, $fullMesage, $header );
-echo "<script> alert('correo enviado exitosamente')</script>";
-echo "<script> setTimeout(\"location.href='index.html'\",1000)</script>";
+mail($destinatario, $affair, utf8_decode($fullMesage), $header );
+
+header("Location:index.html");
 
 
 ?>
